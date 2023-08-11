@@ -9,17 +9,11 @@
 /* Begin PBXBuildFile section */
 		123FA9BF2A71C68F00480A4F /* ContactsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 123FA9BD2A71C68F00480A4F /* ContactsApp.xcdatamodeld */; };
 		CEBD80812A6457DF0010F7B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80802A6457DF0010F7B6 /* AppDelegate.swift */; };
-		CEBD80812A6457DF0010F7B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* SceneDelegate.swift */; };
-		CEBD80812A6457DF0010F7B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* ViewController.swift */; };
-		CEBD80812A6457DF0010F7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* Main.storyboard */; };
-		CEBD80812A6457DF0010F7B6 /* ContactsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* ContactsApp.xcdatamodeld */; };
-		CEBD80812A6457DF0010F7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* Assets.xcassets */; };
-		CEBD80812A6457DF0010F7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* LaunchScreen.storyboard */; };
-		CEBD80812A6457DF0010F7B6 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* AddContactViewController.swift */; };
-		CEBD80812A6457DF0010F7B6 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* ContactsTableViewController.swift */; };
-		CEBD80812A6457DF0010F7B6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* Contact.swift */; };
-		CEBD80812A6457DF0010F7B6 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* CustomAlertController.swift */; };
-		CEBD80812A6457DF0010F7B6 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80812A6457DF0010F7B6 /* ContactsViewController.swift */; };
+		CEBD80832A6457DF0010F7B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80822A6457DF0010F7B6 /* SceneDelegate.swift */; };
+		CEBD80852A6457DF0010F7B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD80842A6457DF0010F7B6 /* ViewController.swift */; };
+		CEBD80882A6457DF0010F7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD80862A6457DF0010F7B6 /* Main.storyboard */; };
+		CEBD808A2A6457E20010F7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD80892A6457E20010F7B6 /* Assets.xcassets */; };
+		CEBD808D2A6457E20010F7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD808B2A6457E20010F7B6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +26,6 @@
 		CEBD80892A6457E20010F7B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBD808C2A6457E20010F7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEBD808E2A6457E20010F7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBD80812A6457DF0010F7B6 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
-		CEBD80812A6457DF0010F7B6 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
-		CEBD80812A6457DF0010F7B6 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		CEBD80812A6457DF0010F7B6 /* CustomAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
-		CEBD80812A6457DF0010F7B6 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +66,6 @@
 				CEBD808B2A6457E20010F7B6 /* LaunchScreen.storyboard */,
 				CEBD808E2A6457E20010F7B6 /* Info.plist */,
 				123FA9BD2A71C68F00480A4F /* ContactsApp.xcdatamodeld */,
-				CEBD80812A6457DF0010F7B6 /* AddContactViewController.swift */,
-				CEBD80812A6457DF0010F7B6 /* ContactsTableViewController.swift */,
-				CEBD80812A6457DF0010F7B6 /* Contact.swift */,
-				CEBD80812A6457DF0010F7B6 /* CustomAlertController.swift */,
-				CEBD80812A6457DF0010F7B6 /* ContactsViewController.swift */,
 			);
 			path = "ContactsApp-IOS";
 			sourceTree = "<group>";
@@ -159,13 +143,8 @@
 			files = (
 				123FA9BF2A71C68F00480A4F /* ContactsApp.xcdatamodeld in Sources */,
 				CEBD80852A6457DF0010F7B6 /* ViewController.swift in Sources */,
-				BB47E32329467077000732D1 /* AddContactViewController.swift in Sources */,
 				CEBD80812A6457DF0010F7B6 /* AppDelegate.swift in Sources */,
 				CEBD80832A6457DF0010F7B6 /* SceneDelegate.swift in Sources */,
-				CEBD80812A6457DF0010F7B6 /* ContactsViewController.swift in Sources */,
-				CEBD80812A6457DF0010F7B6 /* CustomAlertController.swift in Sources */,
-				CEBD80812A6457DF0010F7B6 /* ContactsTableViewController.swift in Sources */,
-				CEBD80812A6457DF0010F7B6 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +291,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AB59Z4P87Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ContactsApp-IOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -340,7 +318,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AB59Z4P87Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ContactsApp-IOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
